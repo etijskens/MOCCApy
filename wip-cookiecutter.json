@@ -1,0 +1,9 @@
+{
+  "full_name": "Engelbert Tijskens",
+  "email_address": "engelbert.tijskens@uantwerpen.be",
+  "github_username": "etijskens",
+  "project_name": "MOCCApy",
+  "package_name": "moccapy",
+  "project_short_description": "A Python First implementation of the MOCCA project",
+  "minimal_python_version": "3.12"
+}
