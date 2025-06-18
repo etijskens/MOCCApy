@@ -22,3 +22,5 @@ Hephaestos is a complicated monster and not well designed (there is a different 
 - generates the potential models, some potentials depend on the symmetry of the problem. E.g. if the problem has time reversal symmetry, there can be no currents, and corresponding potential contributions necessarily vanish. 
 
 So, there is a (small) coupling between the symmetry part and the model part.  
+
+Brainstorming needed on how to simplify the code. 
