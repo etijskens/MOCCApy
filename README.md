@@ -15,3 +15,10 @@ So it is not a performance bottleneck.
 
 Also interesting would be to develop a Julia-first version along with it and look at performance.
 
+Hephaestos is a complicated monster and not well designed (there is a different preprocessor for each src_orig file).
+
+**Discussion on `Hephaestos`**. Apperently, it generates code that 
+- accounts for the symmetry of the problem
+- generates the potential models, some potentials depend on the symmetry of the problem. E.g. if the problem has time reversal symmetry, there can be no currents, and corresponding potential contributions necessarily vanish. 
+
+So, there is a (small) coupling between the symmetry part and the model part.  
